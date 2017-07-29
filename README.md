@@ -1,7 +1,7 @@
 # TF-Speech-Recognition
 Experimental code for training CLDNN models using tensorflow.
 
-### **Model Architecture**
+### Model Architecture
 - 2 Conv layers with larger filter size + 5 residual block (15 conv layers) + 5 residual LSTM 
 
 ### Results on LibriSpeech
@@ -11,5 +11,7 @@ Experimental code for training CLDNN models using tensorflow.
 |-----------------|:--------:|:--------:|
 |Librispeech-test-clean| NA    | NA|
 
-- Training logs
-![](https://github.com/ZhishengWang/TF-Speech-Recognition/edit/master/img/loss.png)
+### Training logs
+- About 30 epochs
+- The final loss approaches 45-50.
+![](./img/loss.png)
